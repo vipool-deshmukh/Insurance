@@ -32,7 +32,7 @@ class Product:
     @classmethod
     def get_random_products(cls,num):  #10
         prodlist = []
-        vendorlist =['AAAA','BBBB','CCCC','DDDD','EEEE']
+        vendorlist =['AAAAA','BBBB','CCCC','DDDD','EEEE']
         for item in range(num):             #0-9
             pid = item + 1
             pnm = f'{chr(random.randint(65,90))}AAAA'
