@@ -1,0 +1,114 @@
+
+
+prequisite -->
+		make sure-->
+				u have installed--required plugins -->
+							jsonparser/jsonviewer
+							csv
+							xml
+							yaml
+
+	python default support ---> csv,json,sqlite3 db -->
+
+
+make sure following softwares are installed --<
+		csv --> notepad + excel
+		microsoftoffice--> excel read/write
+		mysql/postgres/oracle --> which ever u want--> sql --> database -
+		notedpad++ --> text operations
+		xml --> notepad+browser
+		yaml -->
+		sqlite3 software installed -->
+
+
+Make sure following softwares--downloaded --> try to install -->
+msoffice-- assume--already installed asel
+mysql --> https://dev.mysql.com/downloads/installer/			Windows (x86, 32-bit), MSI Installer
+postgres -> https://www.enterprisedb.com/downloads/postgres-postgresql-downloads	12.6
+sqlite3	-> https://www.sqlite.org/download.html			sqlite-tools-win32-x86-3350400.zip(1.81 MiB)
+
+
+---
+
+
+
+To store/persist the information-->
+	--> XML/CSV/EXCEL/JSON/TEXT/yaml
+	--> Database
+
+
+JSON -- < kind of dict-->
+			key:value
+
+			key --> string
+			values -- STRING|NUMBER|BOOLEAN|JSONOBJECT|ARRAY
+
+	JSON OBJECT -- {}
+	JSON ARRAY --> []
+	STRING -->   ""
+	NUMBER --NUMERIC VALUES
+	BOOLEAN - TRUE/FALSE
+
+
+	{
+		"EMPID" : 101,
+		"EMPNAME" : "AAA",
+		"ACTIVE" : true,
+		"EMPSKILLS" : ["PYTHON","JAVA","DOTNET","DS","ML"],
+		"EMPADDRESS" : {
+							"CITY" : "PUNE",
+							"STATE" : "MH"
+						}
+		"EMP_ROLE" : [
+						{
+							"ROLE_ID"  : 111,
+							"ROLE" : "SSE"
+						},
+						{
+							"ROLE_ID"  : 111,
+							"ROLE" : "SSE"
+						}
+
+						]
+
+
+	}
+
+-----
+{
+	"EMPID": 101,
+	"EMPNAME": "AAA",
+	"ACTIVE": true,
+	"EMPSKILLS": [
+		"PYTHON",
+		"JAVA",
+		"DOTNET",
+		"DS",
+		"ML"
+	],
+	"EMPADDRESS": {
+		"CITY": "PUNE",
+		"STATE": "MH"
+	},
+	"EMP_ROLE": [
+		{
+			"ROLE_ID": 111,
+			"ROLE": "SSE"
+		},
+		{
+			"ROLE_ID": 111,
+			"ROLE": "SSE"
+		}
+	]
+}
+
+attribute --> will be inside tag
+values---> in between tags start/close --> tags --> tags --> extra --> additional info -metadata--> attributes-->
+<employees>
+	<employee id="101"><name  v="101">  AAAAA </name><EMPSKILLS>python,java,dotnet</EMPSKILLS></employee>
+	<employee id="102">
+			<name  v="102">  AAAAA </name>
+			<EMPSKILLS>python,java,dotnet</EMPSKILLS>
+	</employee>
+
+</employees>
